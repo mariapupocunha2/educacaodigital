@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo Consciente de Água no Brasil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
+        body {
+            background-color: #f4f8fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0077b6, #00b4d8);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .intro-text {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .card-content h3 {
+            color: #0077b6;
+            margin-bottom: 0.5rem;
+        }
+
+        .cta-section {
+            background-color: #e0f1f9;
+            text-align: center;
+            padding: 3rem 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+        }
+
+        .cta-section h2 {
+            color: #03045e;
+            margin-bottom: 1rem;
+        }
+
+        .btn-saiba-mais {
+            display: inline-block;
+            background-color: #0077b6;
+            color: white;
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-saiba-mais:hover {
+            background-color: #03045e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #03045e;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>A Crise Invisível: O Uso da Água no Brasil</h1>
+        <p>Preservar hoje para garantir o amanhã.</p>
+    </header>
+
+    <main class="container">
+        
+        <section class="intro-text">
+            <h2>O Desafio do Consumo Consciente</h2>
+            <p>O Brasil possui cerca de 12% da água doce do planeta, mas a distribuição desigual, a contaminação dos mananciais e o desperdício colocam nosso futuro em risco.</p>
+        </section>
+
+        <section class="cards-grid">
+            
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?q=80&w=800&auto=format&fit=crop" alt="Solo rachado pela seca no sertão">
+                <div class="card-content">
+                    <h3>Seca e Abastecimento</h3>
+                    <p>Enquanto algumas regiões enfrentam escassez severa de água potável, o consumo irresponsável continua alto em centros urbanos.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?q=80&w=800&auto=format&fit=crop" alt="Torneira pingando água">
+                <div class="card-content">
+                    <h3>Desperdício Invisível</h3>
+                    <p>Pequenos vazamentos e hábitos diários, como banhos demorados e escovar os dentes com a torneira aberta, somam toneladas de água jogadas fora.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1617155093730-a8bf47be792d?q=80&w=800&auto=format&fit=crop" alt="Mãos segurando água limpa">
+                <div class="card-content">
+                    <h3>Preservação e Futuro</h3>
+                    <p>Mudar nossas atitudes hoje é o único caminho para garantir o acesso à água potável para as próximas gerações.</p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="cta-section">
+            <h2>Quer entender melhor como fazer a sua parte?</h2>
+            <p style="margin-bottom: 1.5rem;">Assista a este vídeo educativo sobre consumo sustentável e o impacto da água no Brasil.</p>
+            
+            <a href="https://www.youtube.com/watch?v=rl0XiA-N5v0" target="_blank" class="btn-saiba-mais">
+                Saiba Mais (Assistir Vídeo)
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto de Conscientização Ambiental — Uso Consciente da Água</p>
+    </footer>
+
+</body>
+</html>
