@@ -1,0 +1,105 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f7f4;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Container do Conteúdo */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Cartões de Conteúdo */
+.card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+}
+
+.card h2 {
+    color: #1e3c72;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin-bottom: 1rem;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card li {
+    background: #eef6fc;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-left: 4px solid #2a5298;
+    border-radius: 4px;
+}
+
+/* Destaque para a chamada do botão */
+.highlight {
+    text-align: center;
+    background-color: #e8f4f8;
+    border: 2px dashed #2a5298;
+}
+
+/* Botão Saiba Mais */
+.btn {
+    display: inline-block;
+    background-color: #ff0000; /* Cor temática do YouTube */
+    color: #ffffff;
+    padding: 0.8rem 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3);
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+    transform: translateY(-2px);
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #718096;
+    font-size: 0.9rem;
+}
